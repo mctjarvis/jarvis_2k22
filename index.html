@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="de-DE">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/fav_icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <meta name="description" content="A Stranger's Journey ist ein textbasiertes Story-Abenteuer in einer unentdeckten und surrealen Welt – Erlebe sie nur durch Wörter, Nachrichten und Umrisse eines fantastischen Ortes.">
+    <meta property="og:title" content="A Stranger's Journey • A Galactic Text Adventure">
+    <meta property="og:description" content="A Stranger's Journey ist ein textbasiertes Story-Abenteuer in einer unentdeckten und surrealen Welt – Erlebe sie nur durch Wörter, Nachrichten und Umrisse eines fantastischen Ortes.">
+    <meta property="og:image" content="assets/images/asj_og_image.jpg">
+    <meta property="og:image:secure_url" content="assets/images/asj_og_image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="index.html">
+    <meta property="twitter:title" content="A Stranger's Journey • A Galactic Text Adventure">
+    <meta property="twitter:description" content="A Stranger's Journey ist ein textbasiertes Story-Abenteuer in einer unentdeckten und surrealen Welt – Erlebe sie nur durch Wörter, Nachrichten und Umrisse eines fantastischen Ortes.">
+    <meta property="twitter:image" content="assets/images/asj_og_image.jpg">
+    <link href="../cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/cookies-eu.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css">
+    <title>JARVIS' 22</title>
+</head>
+
+<body>
+    <div id="to-top-btn">
+        <img src="assets/icons/to_top_blur.svg" class="icon" alt="To Top Icon Blur 01" />
+        <img src="assets/icons/to_top_blur.svg" class="icon" alt="To Top Icon Blur 02" />
+        <img src="assets/icons/to_top_blur.svg" class="icon" alt="To Top Icon Blur 03" />
+        <img src="assets/icons/to_top.svg" class="icon" alt="To Top Icon" />
+    </div>
+    <div class="loader-box">
+        <div class="loader-rect"></div>
+    </div>
+    <div class="wrapper">
+        
+        <div class="asj-nav-bar-backlayer"></div>
+        <nav class="asj-nav-bar hidden">
+            <div class="nav-shadow">
+            </div>
+            <div class="nav-btn">
+                <div class="btn-bars">
+                    <div class="btn-bar">
+                    </div>
+                    <div class="btn-bar">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-background">
+            </div>
+            <div class="nav-box">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="index.html#header" title="Scroll zum Start">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#messages" title="Scroll zu Explore">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#technical" title="Scroll zur Journey">Technical</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#workshops" title="Scroll zur App Preview">Workshops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#non-technical" title="Scroll zu Entwickler">Non-Technical</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sponsors" title="Scroll zu Download">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#footer" title="Scroll zu Kontakt">Contact</a>
+                    </li>
+                </ul>
+                <div class="social-btns">
+                    <a href="https://instagram.com/cit_jarvis" title="Jarvis Instagram" target="_blank" rel="noopener noreferrer">
+                        <div class="social-btn">
+                            <img src="assets/icons/instagram_icon.svg" alt="Instagram Icon" />
+                        </div>
+                    </a>
+                    <a href="https://wa.me/918870464557" title="Whatsapp Us">
+                        <div class="social-btn">
+                            <img src="assets/icons/btn_newsletter_icon.svg" alt="Newsletter Icon" />
+                        </div>
+                    </a>
+                    <a href="mailto:jarvis@citchennai.net" title="Mail Us" rel="noopener noreferrer" target="_blank">
+                        <div class="social-btn">
+                            <img src="assets/icons/nav_mail_icon.svg" alt="Mail Icon" />
+                        </div>
+                    </a>
+                    <a href="https://g.page/CITCollege?share" title="Location" rel="noopener noreferrer" target="_blank">
+                        <div class="social-btn">
+                            <img src="assets/icons/maps.svg" alt="Mail Icon" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section id="header" class="section-01">
+            
+            <div class="gradient-space-box fullscreen-background">
+                <div class="gradient-space fullscreen-background" data-scroll></div>
+            </div>
+            <div class="gradient-glow-box fullscreen-background">
+                <div class="gradient-glow fullscreen-background" data-scroll></div>
+            </div>
+            <div class="stars-box fullscreen-background">
+                <div class="stars fullscreen-background"></div>
+            </div>
+            <div class="overflow-box planet-overflow">
+                <div class="planet-box fullscreen-background">
+                    <div class="planet fullscreen-background"></div>
+                </div>
+                <div class="college-logo">
+                    <img src="assets/images/CITLogo.png"/>
+                </div>
+                <div class="mct-logo">
+                    <img src="assets/images/mct-white.png"/>
+                </div>
+            </div>
+            <div class="section-wrapper fullscreen top-layer center-items">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="header-content-block" data-scroll>
+                                <div class="asj-square">
+                                    <div id="drag-it" class="goback">
+                                        <img src="" alt="" />
+                                    </div>
+                                    
+                                </div>
+                                <h1>JARVIS 2K22</h1>
+                                <div class="content-divider"></div>
+                                <h2 class="asj-text-gradient">
+                                    A National Level <br>
+                                    Technical Symposium<br>
+                                    by Dept. of Mechatronics<br>
+                                    Chennai Institute of Technology
+                                </h2>
+                                <div class="flow-text">
+                                    <p>Jarvis is a National Level Technical Symposium presented by Department of Mechatronics of Chennai Institute of Technology. JARVIS aims at bringing the technologies from science fiction right into the real world. It
+                                        is an amazing platform for the students from all over the country to explore engineering through competitions, workshops and much more...</p>
+                                </div>
+                                <div class="btn-box">
+                                    <div class="cs-btn-holder">
+                                        <a href="https://www.citchennai.edu.in/departments/ug-courses/mechatronics/" title="About Department" class="cs-button has-cs-icon">
+                                            <i class="cs-icon newsletter"></i>ABOUT DEPARTMENT
+                                        </a>
+                                    </div>
+                                    <div class="cs-btn-holder">
+                                        <a href="index.html#explore" title="Explore More" class="cs-button">
+                                            <i class=""></i>EXPLORE MORE
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="hint-note">
+                                    <p>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="messages" class="section-02 full-height">
+            <div class="gradient-space fullscreen-background" data-scroll>
+            </div>
+            <div class="stars fullscreen-background">
+            </div>
+            <div class="section-wrapper top-layer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 message-col">
+                            <div class="default-content-block messages-block">
+                                <div class="messages-box">
+                                    <div class="stranger-messages">
+                                        <div class="message" data-scroll>
+                                            <p>Hi!</p>
+                                        </div>
+                                        <div class="message" data-scroll>
+                                            <p>This is Jarvis...</p>
+                                        </div>
+                                        <div class="message" data-scroll>
+                                            <p> Get ready to witness me on 23rd May
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-wrapper top-layer">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-md-8 offset-md-1 two-col-text-banner">
+                                        <div class="default-content-block" data-scroll>
+                                            <div class="flow-text">
+                                                <div class="row">
+                                                    <div class="col-md overview-col">
+                                                        <div class="info-box">
+                                                            <div class="info-icon">
+                                                                <img src="assets/icons/info_date.svg" alt="Info Icon Release Date" />
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <p class="upper-headline asj-text-gradient">Tecnical Workshops</p>
+                                                                <p class="headline">"6"</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md overview-col">
+                                                        <div class="info-box">
+                                                            <div class="info-icon">
+                                                                <img src="assets/icons/info_time.svg" alt="Info Icon Reading Time" />
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <p class="upper-headline asj-text-gradient">Technical Events</p>
+                                                                <p class="headline">"6"</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="info-box">
+                                                            <div class="info-icon">
+                                                                <img src="assets/icons/info_genre.svg" alt="Info Icon Genre" />
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <p class="upper-headline asj-text-gradient">Non-Technical Events</p>
+                                                                <p class="headline">"6"</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="explore" class="section-03 full-height">
+            <div class="overflow-box">
+                <div class="gravity-ring" data-scroll>
+                </div>
+            </div>
+            <div class="gradient-space-corner" data-scroll>
+            </div>
+            <div class="stars">
+            </div>
+            <div class="section-wrapper top-layer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1 sticky-container">
+                            <div class="default-content-block stick-top" data-scroll>
+                                <h4 class="asj-text-gradient">Why Should you Join Jarvis ?</h4>
+                                <div class="content-divider"></div>
+                                <div class="flow-text">
+                                    <p>Jarvis is one of the greatest fests of Enlightenment where technologies from all streams are cultivated. Workshop on the most promising technologies, technical competition and fun events to develop your IQ will
+                                        be conducted. Juries from top reputed institutions like IIT are being a part of it. Jarvis benefits you to develop basic, technical and soft skills. Contacts from various colleges help to upskill and develop your
+                                        personality and career opportunities which make you stand out of line. We assure you that if you participate in Jarvis leaves you with priceless knowledge and memories.</p>
+                                </div>
+                                <h3 id="technical">Tecnical Events</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="arduino-programming.html">
+                                            <img src="assets/tech/arduino-programming.png" alt="ASJ Wallpaper Lamella World" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="drone-racing.html">
+                                            <img src="assets/tech/drone-racing.png" alt="ASJ Wallpaper Mountain Ring" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="robo-war.html">
+                                            <img src="assets/tech/robo-war.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="rc-racing.html">
+                                            <img src="assets/tech/rc-racing.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="paper-presentation.html">
+                                            <img src="assets/tech/paper.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="quiz.html">
+                                            <img src="assets/tech/quiz.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1 sticky-container">
+                            <div class="default-content-block stick-top" data-scroll>
+                                <h3 id="workshops">Tecnical Workshops</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="kuka-robotics.html">
+                                            <img src="assets/workshop/kuka-robotics.png" alt="ASJ Wallpaper Lamella World" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="industrial-automation.html">
+                                            <img src="assets/workshop/industrial-automation.png" alt="ASJ Wallpaper Mountain Ring" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="embedded-systems.html">
+                                            <img src="assets/workshop/embedded-systems.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="aero-modeling.html">
+                                            <img src="assets/workshop/aero-modelling.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="entrepreneurship.html">
+                                            <img src="assets/workshop/entrepreneurship.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="e-vehicle.html">
+                                            <img src="assets/workshop/e-vehicle.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1 sticky-container">
+                            <div class="default-content-block stick-top" data-scroll>
+                                <h3 id="non-technical">Non-Technical Events</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="laser-walk.html">
+                                            <img src="assets/non-tech/laser-walk.png" alt="ASJ Wallpaper Lamella World" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="gaming.html">
+                                            <img src="assets/non-tech/gaming.png" alt="ASJ Wallpaper Mountain Ring" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="anime-quiz.html">
+                                            <img src="assets/non-tech/anime-quiz.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="connections.html">
+                                            <img src="assets/non-tech/connnections.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="tressure-hunt.html">
+                                            <img src="assets/non-tech/tressure-hunt.png" alt="ASJ Wallpaper Mountain Holes" />
+                                        </a>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <a data-fancybox="explore-gallery" href="photography.html">
+                                            <img src="assets/non-tech/photography.png" alt="ASJ Wallpaper Mountain Shadows" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper top-layer top-margin">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 offset-md-1">
+                            <div class="default-content-block  center-block stick-bottom" data-scroll>
+                                <h3>GET READY TO WITNESS JARVIS</h3>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="video-container" data-scroll>
+                                <img class="format-box" src="assets/video/back_post.png" alt="ASJ Teaser Trailer Background" />
+                                <video id="teaser-trailer" width="auto" height="auto" poster="assets/video/back_post.png" controls="false" controlslist="nodownload" preload="none" loop="">
+              <source src="assets/video/jarvis_2k22.mp4" type="video/mp4">
+            </video>
+                                <div class="wave-btn-holder">
+                                    <div class="waves">
+                                        <div class="wave"></div>
+                                        <div class="wave"></div>
+                                        <div class="wave"></div>
+                                    </div>
+                                    <a class="play-button" title="Jarvis Trailer">
+                                        <img src="assets/icons/play_icon.svg" alt="Play Button Icon" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="release-notes" class="section-07">
+            <div class="gradient-space" data-scroll></div>
+            <div class="gradient-glow" data-scroll></div>
+            <div class="section-wrapper top-layer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 offset-md-1 custom-col">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div id="sponsors" class="default-content-block center-block" data-scroll>
+                                        <h3>OUR SPONSORS</h3>
+                                        <div class="content-divider "></div>
+                                        <div class="flow-text no-max-width">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 d-none d-md-block"></div>
+                                <div class="container notes-box">
+                                    <div class="row">
+                                        <div class="col-md-4 release-note-holder">
+                                            <div class="release-note" data-scroll>
+                                                <h5 class="title">Title Sponsors</h5>
+                                                <p class="flow-text"> ... </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 release-note-holder">
+                                            <div class="release-note" data-scroll>
+                                                <h5 class="title">Co-Sponsors</h5>
+                                                <p class="flow-text"> ... </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 release-note-holder">
+                                            <div class="release-note" data-scroll>
+                                                <h5 class="title">Event Sponsors</h5>
+                                                <p class="flow-text"> ... </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrapper top-layer download-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 custom-col">
+                            <div class="default-content-block center-block slow-fade-out" data-scroll>
+                                <div class="logo-holder">
+                                    <a href="https://www.citchennai.edu.in/jarvis/" title="Jarvis 2k22" rel="noopener noreferrer" target="_blank">
+                                        <img src="assets/logo/jarvis.png" alt="Footer ASJ Logo Alpha" />
+                                    </a>
+                                </div>
+                                <h4 class="asj-text-gradient">STUCK WITH ANY QUERIES?</h4>
+                                <h3>Contact our team to calrify any doubts regarding Jarvis 2k22</h3>
+                                <div class="content-divider"></div>
+                                <div class="flow-text no-max-width">
+                                    <!-- <p>A Stranger's Journey ist bald verfügbar. Bei Fragen, Feedback, Bugs oder neuen Features klick einfach auf das mysteriöse Quadrat im Dunkeln. Gerne stehe ich auch für Interview-Termine und weitere Auskünfte zur Verfügung.
+                                        Anfragen gerne per Mail an <a href="mailto:press@astrangersjourney.app" title="Mail an press@astrangersjourney.app">press@astrangersjourney.app</a> oder per Kontakt Button – Außerdem steht ein umfangreiches Presse
+                                        Kit bereit, das frei für sämtliche Erwähnungen von ASJ genutzt werden kann.</p> -->
+
+                                </div>
+                                <div class="btn-box">
+                                    <div class="cs-btn-holder">
+                                        <a href="mailto:jarvis@citchennai.net" title="Mail" rel="noopener noreferrer" target="_blank" class="cs-button has-cs-icon">
+                                            <i class="cs-icon message"></i>Mail Us
+                                        </a>
+                                    </div>
+                                    <!-- <div class="cs-btn-holder">
+                                        <a href="https://www.dropbox.com/sh/l9snija3sv4ibti/AAAYO3PqDjLBlRmQ4VjSHfCka?dl=0" title="Zum ASJ Presse Kit" target="_blank" rel="noopener noreferrer" class="cs-button has-cs-icon inverted">
+                                            <i class="cs-icon download"></i>Presse Kit
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stars">
+                <img src="assets/graphics/release_notes/footer_stars.svg" alt="Footer Stars" />
+            </div>
+            <div class="planet" data-scroll>
+                <img src="assets/graphics/release_notes/footer_planet.png" alt="Footer Planet" />
+            </div>
+            <section id="footer" class="section-08">
+                <div class="section-wrapper top-layer">
+                    <div class="container">
+                        <div class="row center-row">
+                            <div class="col-md-10 columns-holder">
+                                <div class="row">
+                                    <div class="col-md-3 content-column">
+                                        <div class="footer-links">
+                                            <h6 class="link-title">Connect With Us</h6>
+                                            <div class="content-divider"></div>
+                                            <ul class="link-list social-btns">
+                                                <li>
+                                                    <a href="https://instagram.com/cit_jarvis" title="Instagram" target="_blank" rel="noopener noreferrer">
+                                                        <div class="social-btn">
+                                                            <img src="assets/icons/insta_icon.svg" alt="Instagram Icon" />
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.youtube.com/c/CITJARVIS/featured" title="Youtube" target="_blank" rel="noopener noreferrer">
+                                                        <div class="social-btn">
+                                                            <img src="assets/icons/youtube_icon.svg" alt="Youtube Icon" />
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="mailto:jarvis@citchennai.net" title="Mail" target="_blank" rel="noopener noreferrer">
+                                                        <div class="social-btn">
+                                                            <img src="assets/icons/mail_icon.svg" alt="Twitter Icon" />
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-8 offset-md-2 copyright-bar">
+                                        <p><span class="year">2022</span> © Jarvis | Web Development Team | All Rights Reserved</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/scroll-out.min.js"></script>
+    <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/siema.min.js"></script>
+    <script src="js/plain-draggable.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/cookies-eu-banner.min.js"></script>
+    <script>
+        new CookiesEuBanner(function() {
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-155083746-1', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+        }, true);
+    </script>
+</body>
+
+</html>

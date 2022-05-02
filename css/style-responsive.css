@@ -1,0 +1,1829 @@
+/*######################### RESPONSIVE STYLES #########################*/
+@media only screen and (max-width:1920px) {
+	:root {	
+		--content-preview-developer-section-developer-margin:250px;
+	}
+	/*######################### HEADER STYLES #########################*/	
+	#header {
+		height: 1000px;
+	}
+	
+	#messages {
+		height: 1600px;
+	}
+	
+	#header .gradient-space,
+	#header .gradient-glow,
+	#header .planet {
+		height: calc(100% + 800px);		
+	}
+	
+	#header .planet {
+		background-position: top center;
+	}
+	
+	#header .overflow-box.planet-overflow .planet-box {
+		height: 1000px;
+	}
+	
+	#header .overflow-box.planet-overflow {
+		height: 3500px;
+	}
+	
+	#header .section-wrapper.center-items {
+		padding-top: 260px;
+	}
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages .default-content-block.messages-block {
+		top: calc(12vh + 20%);
+	}
+	
+	#messages .default-content-block {
+		top: 30vh;
+	}
+	
+	#messages .gradient-space {
+	transform: translateY(calc(400px + (50% * var(--viewport-y))));
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore .sticky-container {
+		padding-top: 400px;
+		height: 2000px;
+	}
+	
+	#explore .gravity-ring {
+		top: 38%;
+	}
+	
+	#explore .quote-block {
+		padding-left: 0;
+	}
+	
+	#explore .quote-block {
+		transform: translate(0, calc(15vh + (20vh * var(--viewport-y))));
+	}
+	
+	#explore .default-content-block.stick-top {
+		top: 5vh;
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 900px;
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .glass-cards {
+		padding: 0 10%;
+	}
+	
+	#content-preview-developer #developer {
+		margin-bottom: 200px;
+	}
+	
+	#content-preview-developer #download {
+		margin-top: 300px;
+		margin-bottom: 300px;
+	}
+	
+	#content-preview-developer #download .header-content-block[data-scroll="in"] {
+		transition: all 600ms ease-in-out 150ms;
+		opacity: 1;
+		transform: translate(0, 0px);
+	}
+	
+	#content-preview-developer #download .header-content-block {
+		transition: all 600ms ease-in-out;
+		opacity: 0;
+		transform: translate(0, 80px);
+	}
+	
+	#content-preview-developer .moving-planet, 
+	#content-preview-developer .moving-planet-gradient-glow {
+		transform: translate(0, calc(10% - (-20% * var(--visible-y)))) scale(calc(1.2 - ( 0.2 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col{
+		width: 35%;
+		margin-left: 25%;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 25%;
+		margin-left: 7%;
+	}
+	
+	#content-preview-developer .fullwidth-banner:after {
+		width: 85%;
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes {
+		margin-top: 260px;
+	}
+	
+	#release-notes .download-section {
+		margin: 160px auto 0px auto;
+	}
+	
+	#release-notes .gradient-glow {
+		transform: translateY(calc(15% - (-100px * var(--viewport-y)))) !important;
+	}
+		
+	#release-notes .gradient-space {
+		transform: translateY(calc(15% - (-160px * var(--viewport-y)))) !important;
+	}
+}
+
+
+@media only screen and (max-width:1600px) {
+	/*######################### GENERAL STYLES #########################*/
+	:root {
+		--default-h4-size: 20px;
+		--button-text-size: 16px;
+		--content-preview-developer-section-developer-margin:220px;
+	}
+		
+	.cs-button i.cs-icon {
+		width: 20px;
+		height: 20px;
+	}
+		
+	h1,
+	#content-preview-developer #download .header-content-block h2.asj-headline {
+		font-size: 36px;
+		max-width: 340px;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	
+	h3 {
+		font-size: 30px;
+	}
+	
+	/*######################### HEADER STYLES #########################*/
+	#header .asj-square, 
+	#download .asj-square {
+		width: 140px;
+	}
+	
+	#header .asj-square {
+		transform: translate(calc(10% - 60px), -54%) rotateY(90deg);
+	}
+	
+	#header.animIn .header-content-block .asj-square,
+	#content-preview-developer #download .header-content-block .asj-square {
+		transform: translate(10%, -54%) rotateY(0deg);
+	}
+	
+
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages {
+		height: 1300px;
+	}
+	
+	#messages .message-col {
+		padding-top: 500px;
+		width: 50%;
+	}
+	
+	#messages .sticky-container {
+		margin-left: 8%;
+	}
+	
+	#messages .stranger-message-holder .message,
+	#messages .messages-box .message {
+		font-size: 18px;
+	}
+	
+	#messages .messages-box .message.from-user {
+		transform: translate(50%, calc(-100% + 32px));
+	}
+	
+	#messages .messages-box.user-message-income .message.from-user {
+		transform: translate(-10%, calc(-100% + 32px));
+	}
+	
+	#messages .stranger-message-holder {
+		transform: translate(-50%, -100px);
+	}
+	
+	#messages .stranger-message-holder.stranger-message-income {
+		transform: translate(0, -100px);
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	.quote-block .quote {
+		font-size: 26px;
+	}
+	
+	#explore .quote-block {
+		transform: translate(0, calc(5vh + (20vh * var(--viewport-y))));
+	}
+	
+	#explore .quoter-block {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	
+	#explore .quoter-block .content-divider.horizontal {
+		margin-bottom: 20px;
+		width: 160px;
+	}
+	
+	#explore .gravity-ring {
+		transform: translateX(35%) translateY(calc(10vh * var(--viewport-y))) scale(calc(0.7 + (1.4 * var(--visible-y))));
+	}
+	
+	#explore .gravity-ring {
+		top: 35%;
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 900px;
+	}
+	
+	/*######################### OVERVIEW STYLES #########################*/	
+	#overview .bullet-infos {
+		margin-left: 0;
+		width: 50%;
+	}
+	
+	#overview .two-col-text-banner {
+		margin-top: 80px;
+		margin-left: 0;
+		width: 80%;
+	}
+	
+	#overview .bullet-infos[data-scroll="in"] .overview-col:nth-child(2) {
+		transform: translate(0px, 25%);
+	}
+	
+	.info-box .headline {
+		font-size: 23px;	
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview .fullwidth-banner .fullwidth-col-content {
+		width: 41.6666666667%;
+	}
+	
+	#app-preview .fullwidth-banner .fullwidth-col-form {
+		width: 25%;
+	}
+	
+	.fullwidth-banner:after {
+		width: calc(88% - 20px);
+	}
+	
+	.fullwidth-banner:before {
+		width: calc(12% - 20px);
+	}
+	
+	#app-preview #app-preview-content {
+		max-width: 92%;
+	}
+	
+	#app-preview .info-box {
+		transform: translate(-40px,0);
+	}
+	
+	#app-preview .info-col:not(.invert-col) .info-box:nth-child(2n),
+	#app-preview .info-col.invert-col .info-box:nth-child(2n+1) {
+		transform: translate(40px,0);
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .glass-cards {
+		padding: 0 5%;
+	}
+	
+	#content-preview-developer #download {
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+	
+	#content-preview-developer #developer .custom-col {
+		width: 33%;
+		margin-left: 16.6%;
+	}
+	
+	#content-preview-developer #developer .custom-col:nth-child(2) {
+		width: 40%;
+		margin-left:8%; 
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes {
+		margin-top: 200px;
+	}
+	
+	#release-notes .custom-col {
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	#release-notes .download-section {
+		margin: 140px auto 100px auto;
+	}
+	
+	#release-notes .gradient-glow {
+		transform: translateY(calc(15% - (-200px * var(--viewport-y)))) !important;
+	}
+		
+	#release-notes .gradient-space {
+		transform: translateY(calc(15% - (-160px * var(--viewport-y)))) !important;
+	}
+	
+	/*######################### FOOTER STYLES #########################*/
+	#footer .section-wrapper {
+		max-width: 100%;
+	}
+
+}
+
+@media only screen and (max-width:1280px) {
+	/*######################### GENERAL STYLES #########################*/	
+	.section-wrapper {
+		max-width: 95%;
+	}
+	
+	.section-wrapper {
+		max-width: 95%;
+	}
+	
+	.info-subsite .section-wrapper {
+		max-width: 86%;
+	}
+		
+	/*######################### HEADER STYLES #########################*/	
+	#header {
+		height: 900px;
+	}
+	
+	#header .overflow-box.planet-overflow .planet-box {
+		height: 900px;
+	}
+	
+	#header .overflow-box.planet-overflow {
+		height: 2700px;
+	}
+	
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages {
+		height: 1080px;
+	}
+	
+	#messages .messages-box .message:nth-child(4) {
+		padding: 19px 160px 19px 80px;
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore {
+		margin-top: 200px;
+	}
+	
+	#explore .sticky-container {
+		padding-top: 300px;
+	}
+	
+	#explore .gravity-ring {
+		top: 40%;
+		transform:translateX(20%) translateY(calc(-10vh * var(--viewport-y))) scale(calc(0.8 + (1.5 * var(--visible-y))));
+	}
+
+	#explore .quote-box {
+		margin-left: 41.6666666667%;
+		width: 58.3333333333%;
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 600px;
+		padding-bottom: 200px;
+	}
+	
+	#explore .gravity-ring {
+		top: 45%;
+	}
+	
+	#explore .quote-block .quote {
+		font-size: 24px;
+	}
+	
+	/*######################### OVERVIEW STYLES #########################*/	
+	#overview {
+		padding: 160px 0;
+	}
+	
+	#overview .bullet-infos {
+		margin-left: 0;
+		width: 54%;
+	}
+	
+	#overview .bullet-infos-text{
+		margin-left: 4%;
+	}
+	
+	#overview .two-col-text-banner {
+		margin-top: 40px;
+	}
+	
+	#overview .bullet-infos[data-scroll="in"] .overview-col:nth-child(2) {
+		transform: translate(0px, 0%);
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview {
+		padding-top: 120px;
+	}
+	
+	#app-preview #app-preview-content {
+		max-width: 95%;
+	}
+		
+	#app-preview .fullwidth-banner .fullwidth-col-form {
+		margin-left: 3%;
+		width: 30%;
+	}
+	
+	#app-preview .info-col {
+		margin-left: 0;
+		width: 33%;
+	}
+	
+	#app-preview #app-preview-content.no-overflow {
+		overflow: hidden;
+		margin-bottom: -160px;
+	}
+	
+	#app-preview #app-preview-content .fix-overflow {
+		padding-bottom: 160px;
+	}
+	
+	#app-preview .info-col {
+		padding-top: 30px;
+	}
+	
+	#app-preview .info-box {
+		transform: translate(-80px,0);
+	}
+	
+	#app-preview .info-col:not(.invert-col) .info-box:nth-child(2n),
+	#app-preview .info-col.invert-col .info-box:nth-child(2n+1) {
+		transform: translate(80px,0);
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .glass-cards {
+		padding: 0 0;
+	}
+	
+	#content-preview-developer #developer .custom-col {
+		width: 40%;
+		margin-left: 5%;
+	}
+	
+	#content-preview-developer #developer .custom-col:nth-child(2) {
+		width: 49%;
+		margin-left:5%; 
+	}
+	
+	#content-preview-developer .moving-planet, 
+	#content-preview-developer .moving-planet-gradient-glow {
+		transform: translate(0, calc(-10% - (-20% * var(--visible-y)))) scale(calc(1.2 - ( 0.2 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer #download {
+		margin-top: 180px;
+		margin-bottom: 140px;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col{
+		width: 45%;
+		margin-left: 15%;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 28%;
+		margin-left: 5%;
+	}
+	
+	#content-preview-developer .fullwidth-banner:after {
+		width: 96%;
+	}
+	
+	#content-preview-developer .quote-block .quote {
+		font-size: 24px;
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes .custom-col {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	#release-notes .download-section {
+		margin: 120px auto 120px auto;
+	}
+	
+	#release-notes .planet {
+		transform: scale(calc(2 - ( 0.3 * var(--visible-y))));
+	}
+	
+	#release-notes .gradient-glow {
+		transform: translateY(calc(17% - (-200px * var(--viewport-y)))) !important;
+	}
+		
+	#release-notes .gradient-space {
+		transform: translateY(calc(17% - (-160px * var(--viewport-y)))) !important;
+	}
+	
+	
+	/*######################### FOOTER STYLES #########################*/
+	#footer {
+		width: 95%;
+		left: 2.5%;
+	}
+	
+	#footer .container .row .columns-holder {
+		width: 100%;
+	}
+	
+	#footer .container .row .columns-holder .content-column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width:1080px) {
+	#app-preview .info-col,
+	#app-preview .slider-col {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	#app-preview #app-preview-content {
+		max-width: 100%;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+	
+	#app-preview .app-slider {
+		transform: translateY(0);     
+		margin: 20px auto 80px auto;
+	}
+	
+	#app-preview #app-preview-content .fix-overflow {
+		padding-bottom: 0px;
+	}
+	
+	#overview .bullet-infos .row {
+		flex-direction: column;
+	}
+	
+	#overview .bullet-infos {
+		padding-top: 20px;
+	}
+	
+	#overview .two-col-text-banner {
+		width: 80%;
+		margin-top: 0;
+		width: 100%;
+	}
+	
+	#overview .two-col-text-banner .flow-text {
+		column-gap: 40px;
+	}
+	
+	#overview .bullet-infos-text .default-content-block {
+		padding-left: 10px;
+	}
+	
+	#overview .bullet-infos {
+		width: 50%;
+	}
+	
+	#overview .bullet-infos-text {
+		margin-left: 0;
+	}
+	
+	#overview:after {
+		transform:translateX(0) translateY(calc(-10% + (10%) * var(--viewport-y) + (5% / var(--visible-y)) ));
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	
+	#header .gradient-space,
+	#header .gradient-glow,
+	#header .planet {
+		height: 100%;	
+	}
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore .quote-block {
+		transform: translate(0, calc(5vh + (10vh * var(--viewport-y))));
+	}	
+	
+	/*######################### OVERVIEW STYLES #########################*/	
+	#overview {
+		padding: 120px 0;
+	}
+	
+	.info-box .headline {
+		font-size: 22px;
+	}
+	
+	#overview .bullet-infos,
+	#overview .bullet-infos-text {
+		margin-left: 0;
+		width: 50%;
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview #app-preview-content.no-overflow {
+		margin-bottom: 0px;
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes .download-section {
+		margin: 100px auto 160px auto;
+	}
+	
+}
+
+@media only screen and (max-width:981px) {
+	/*######################### GENERAL STYLES #########################*/
+	.cs-btn-holder {
+		margin-bottom: 12px;
+	}
+	
+	/*######################### HEADER STYLES #########################*/	
+	#header {
+		height: auto;
+		min-height: 850px;
+	}
+	
+	/*######################### NAV STYLES #########################*/	
+	nav.asj-nav-bar.open {
+		transform: translate(20%, -50%);
+	}
+	
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages .messages-box .message:nth-child(4) {
+		padding: 19px 60px 19px 60px;
+		min-width: 120%;
+	}
+	
+	#messages .messages-box {
+		transform: translate(0px, calc(-30% + 116px));
+	}
+	
+	#messages .messages-box.stranger-message-income {
+		transform: translate(0px, calc(-30% + 0px));
+	}
+	
+	#messages .stranger-message-holder .message,
+	#messages .messages-box .message {
+		padding: 35px 60px;
+	}
+	
+	#messages .stranger-message-holder .message {
+		padding-right: 40px;
+	}
+	
+	#messages .section-wrapper {
+		padding-bottom: 100px;
+		width: 100%;
+		max-width: 100%;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+	
+	
+	#messages .sticky-container {
+		margin-left: 0%;
+		width: 50%;
+	}
+	
+	#messages .gradient-space {
+		transform: translateY(calc(200px + (50% * var(--viewport-y))));
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore {
+		margin-top: 250px;
+	}
+	
+	#explore .quote-block {
+		transform: translate(0, calc(5vh + (5vh * var(--viewport-y))));
+	}	
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 300px;
+	}
+	
+	#explore .gravity-ring {
+		top: 50%;
+		transform: translateX(20%) translateY(calc(-20vh * var(--viewport-y))) scale(calc(0.8 + (1.5 * var(--visible-y))));
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	.fullwidth-banner:before {
+		width: 0;
+		opacity: 0;
+	}
+	.fullwidth-banner:after {
+		width: 96%;
+	}
+	
+	#app-preview .fullwidth-banner .fullwidth-col-content {
+		width: 50%;
+	}
+	
+	#app-preview .fullwidth-banner .fullwidth-col-form {
+		margin-left: 0%;
+		width: 34%;
+	}
+	
+	#app-preview #app-preview-content {
+		padding-top: 160px;
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .quote-box-col {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	#content-preview-developer .gravity-ring {
+		transform: translate(50%, calc(-45% + var(--content-preview-quote-margin))) scale(calc(1.4 - (0.1 * var(--visible-y))));
+	}
+	
+	#content-preview-developer .glass-cards > .container {
+		padding: 0;
+	}
+	
+	#content-preview-developer #developer {
+		margin-bottom: 150px;
+	}
+	
+	#content-preview-developer #download {
+		margin-top: 140px;
+		margin-bottom: 140px;
+	}
+	
+	#content-preview-developer #download .custom-col{
+		width: 55%;
+		margin-left: 40%;
+	}
+	
+	#content-preview-developer .moving-planet, 
+	#content-preview-developer .moving-planet-gradient-glow {
+		transform: translate(0, calc(-25% - (-10% * var(--visible-y)))) scale(calc(1.2 - ( 0.2 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col{
+		width: 45%;
+		margin-left: 13%;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 36%;
+		margin-left: 3%;
+	}
+	
+	/*######################### OVERVIEW STYLES #########################*/	
+	#overview {
+		padding: 80px 0;
+	}
+	
+	#overview .bullet-infos {
+		padding-top: 60px;	
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes .notes-box .release-note {
+		padding: 25px 17px;
+	}
+	
+	#release-notes .release-note-holder {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	#release-notes {
+		margin-top: 140px;
+	}
+	
+	#release-notes .download-section {
+		margin: 100px auto 120px auto;
+	}
+	
+	#release-notes .planet {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 640px;
+		background-image: url(../assets/graphics/release_notes/footer_planet.png);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;	
+		transform: scale(calc(1.4 - ( 0.4 * var(--visible-y))));
+	}
+	
+	#release-notes .planet img {
+		display: none;
+		visibility: hidden;
+	}
+	
+	#release-notes .gradient-glow {
+		transform: translateY(calc(15% - (-200px * var(--viewport-y)))) !important;
+	}
+		
+	#release-notes .gradient-space {
+		transform: translateY(calc(15% - (-160px * var(--viewport-y)))) !important;
+	}
+	
+	/*######################### NAVIGATION STYLES #########################*/
+	nav.asj-nav-bar {
+		padding: 30px;
+	}
+	
+	nav.asj-nav-bar .nav-items .nav-item {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+
+	nav.asj-nav-bar .social-btns .social-btn, 
+	#footer .social-btns .social-btn {
+		width: 50px;
+		height: 50px;
+	}
+
+	nav.asj-nav-bar .social-btns {
+		margin-top: 30px;
+	}
+	
+	nav.asj-nav-bar .nav-btn {
+		transform: translate(-50%,-50%);
+		width: 75px;
+		height: 75px;
+	}
+	
+	nav.asj-nav-bar .nav-btn:hover {
+		transform: translate(calc(-50% - 3px),-50%);
+	}
+	
+	nav.asj-nav-bar.open .nav-btn {
+		transform: translate(-60%,-50%);
+	}
+	
+	nav.asj-nav-bar.open .nav-btn:hover {
+		transform: translate(calc(-60% - 3px),-50%);
+	}
+
+	nav.asj-nav-bar .nav-btn .btn-bars {
+		transform: translate(-70%, 0px);
+	}
+	
+	nav.asj-nav-bar.open .nav-btn .btn-bars {
+		transform: translate(-48%, 0px);
+	}
+	
+	nav.asj-nav-bar.open .nav-btn .btn-bar:nth-child(1) {
+		transform: translate(calc(100% + 0px), 0px) rotate(45deg);
+	}
+
+	nav.asj-nav-bar .nav-btn .btn-bars .btn-bar {
+		height: 28px;
+		margin: 0 3px;
+	}
+	
+	
+	
+	
+	/*######################### FOOTER STYLES #########################*/
+	
+	#release-notes #footer {
+		position: relative;
+		width: 95%;
+		left: 0;	
+	}
+	
+	#footer .social-btns .social-btn {
+		width: 40px;
+		height: 40px;
+	}
+	
+	#footer .container .row .columns-holder .content-column {
+		width: 40%;
+		margin: 0px auto 40px auto;
+		align-items: baseline;
+	}
+	
+	#footer .container .row .columns-holder .content-column:nth-child(3),
+	#footer .container .row .columns-holder .content-column:nth-child(4) {
+		margin-bottom: 0;
+	}
+	
+	#footer .copyright-bar {
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	/*######################### GENERAL STYLES #########################*/
+	:root {
+		--default-h4-size: 20px;
+		--content-preview-developer-section-developer-margin:160px;
+	}
+	
+	#header .gradient-space,
+	#header .gradient-glow,
+	#header .planet,
+	.fullscreen-background {
+		height: 100vh;
+		background-size: cover;
+	}
+	
+	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.row {
+		margin: 0;
+	}
+	
+	h3 {
+		font-size: 28px;
+	}
+	
+	#content-preview-developer #download .header-content-block,
+	.default-content-block {
+		transform: translate(0, 40px);
+	}
+	
+	#app-preview .default-content-block.transition-delayer[data-scroll="in"], 
+	#content-preview-developer .fullwidth-banner .default-content-block.transition-delayer[data-scroll="in"],
+	.default-content-block[data-scroll="in"],
+	.default-content-block,
+	#app-preview .info-box,
+	.fullwidth-banner:after,
+	#app-preview .info-col:not(.invert-col) .info-box:nth-child(1)[data-scroll="in"],
+	#app-preview .info-col.invert-col .info-box:nth-child(1)[data-scroll="in"],
+	#app-preview .app-slider,
+	#app-preview .app-slider[data-scroll="in"],
+	#content-preview-developer .fullwidth-banner:after,
+	#release-notes .notes-box .release-note-holder .release-note,
+	#release-notes .notes-box .release-note-holder .release-note[data-scroll="in"],
+	#content-preview-developer #download .header-content-block,
+	#content-preview-developer #download .header-content-block[data-scroll="in"],
+	.default-content-block.slow-fade-out[data-scroll="in"],
+	#overview .bullet-infos[data-scroll="in"] .overview-col,
+	#overview .bullet-infos .overview-col,
+	#overview .bullet-infos .overview-col:nth-child(2) {
+		transition: all 300ms ease-in-out 0ms;
+		transition-delay: 0ms;
+	}
+	
+	#overview .bullet-infos[data-scroll="in"] .overview-col:nth-child(2) {
+		transition-delay: 150ms;
+	}
+	
+	#app-preview .section-wrapper.fullwidth-banner[data-scroll="out"]:after,
+	.default-content-block,
+	#app-preview .info-box,
+	#app-preview .app-slider,
+	#release-notes .notes-box .release-note-holder .release-note,
+	#content-preview-developer #download .header-content-block,
+	#overview .bullet-infos .overview-col {
+		transition-delay:300ms;
+	}
+	
+	#overview .bullet-infos .overview-col:nth-child(2) {
+		transition-delay:450ms;
+	}
+	
+	.default-content-block.slow-fade-out {
+		transition-delay:800ms;
+	}
+	
+	
+	/*######################### NAVBAR STYLES #########################*/
+	nav.asj-nav-bar {
+		top:45vh;
+	}
+	
+	
+	/*######################### HEADER STYLES #########################*/
+	#header .overflow-box.planet-overflow .planet-box {
+		height: 100vh;
+	}
+	
+	#header .overflow-box.planet-overflow {
+		height: 2600px;
+	}
+	
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages {
+		height: auto;
+	}
+	
+	#messages .section-wrapper {
+		overflow: hidden;
+	}
+	
+	#messages .message-col {
+		padding-top: 400px;
+	}
+	
+	#messages .messages-box {
+		transform: translate(0px, calc(-30% + 116px));
+	}
+	
+	#messages .messages-box.stranger-message-income {
+		transform: translate(0px, calc(-30% + 0px));
+	}
+	
+	#messages .sticky-container,
+	#messages .message-col {
+		width: 100%;
+	}
+	
+	#messages .sticky-container {
+		padding-top: 0;
+	}
+	
+	#messages .messages-box.user-message-income .message.from-user {
+		transition-delay: 400ms;
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore {
+		overflow: hidden;
+		margin-top: 0;
+	}
+	
+	#explore .sticky-container {
+		padding-top: 150px;
+		height: auto;
+	}
+	
+	#explore .default-content-block.stick-top[data-scroll="in"], #explore .default-content-block.stick-top {
+		opacity: calc( 0.4 + (1.4 * var(--visible-y)));	
+		transform: translate(0, 0px);
+		transition: all 0ms;
+	}
+	
+	#explore .quote-box {
+		margin-left: 0;
+		position: relative;
+		width: 100%;
+		margin-top: 240px;
+		margin-bottom: 240px;
+	}
+		
+	#explore .quote-block {
+		opacity: calc(0.8 + (1 * var(--viewport-y)));
+	}
+	
+	#explore .quote-block .quote {
+		text-align: center;
+	}
+	
+	.quote-block .quote {
+		text-align: center;
+		font-size: 24px;
+	}
+	
+	#explore .quote-block .quoter {
+		text-align: center;
+	}
+	
+	#explore .quote-block .quoter-block {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#explore .quote-block .content-divider.horizontal {
+		width: 160px;
+		margin: 0px 0 20px 0;
+	}
+	
+	#explore .gravity-ring {
+		display: none;
+	}
+	
+	#explore .quote-box .gravity-ring{
+		display:block;
+		top: -50%;
+		height: 500px;
+		transform: translateX(0%) translateY(calc(-35% * var(--viewport-y))) scale(calc(1.4 + (1 * var(--visible-y))));
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 200px;
+		padding-bottom: 150px;
+	}
+	
+	#explore .video-container {
+		margin: 60px auto 0 auto;
+	}
+	
+	.quote-block:before,
+	.quote-block:after {
+		width: 60px;
+		height: 60px;
+	}
+		
+	#explore .wave-btn-holder {
+		width: 190px;
+		height: 190px;
+		top: 50%;
+	}
+	
+	#explore .wave-btn-holder a.play-button img {
+			position: absolute;
+			width: 25px;
+	}
+	
+	#explore .wave-btn-holder a.play-button {
+			width: 75px;
+			height: 75px;
+	}
+		
+	/*######################### OVERVIEW STYLES #########################*/	
+	#overview .bullet-infos,
+	#overview .bullet-infos-text {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	#overview .bullet-infos .overview-col {
+		width: 100%;
+		padding-left: 0;
+	}
+	
+	#overview .bullet-infos {
+		padding-top: 20px;
+	}
+	
+	#overview .bullet-infos-text {
+		padding-top: 40px;
+	}
+	
+	#overview .bullet-infos .overview-col:nth-child(2) {
+		transform: translate(100px, 0%);
+	}
+	
+	#overview .bullet-infos-text .default-content-block {
+		padding-left: 0px;
+	}
+	
+	#overview:after {
+		transform:translateX(0) translateY(calc(-15% + (5%) * var(--viewport-y) + (5% / var(--visible-y)) ));
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview .fullwidth-banner .fullwidth-col-content,	
+	#app-preview .fullwidth-banner .fullwidth-col-form {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.fullwidth-banner {
+		padding: 40px 10px;
+	}
+	
+	#app-preview .fullwidth-banner .fullwidth-col-form {
+		max-width: 460px;
+		margin-top: 40px;
+	}
+	
+	#app-preview .fullwidth-banner .fullwidth-col-content {
+		max-width: 640px;
+	}
+	
+	.fullwidth-banner:after {
+		width: 98%;
+	}
+	
+	#app-preview .info-col {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	#app-preview .app-slider {
+		transform: translateY(0);
+		margin: 20px auto 80px auto;
+	}
+	
+	#app-preview #app-preview-content {
+		padding-top: 120px;
+	}
+	
+	#app-preview .info-col {
+		padding-top: 0px;
+	}
+	
+	#app-preview #app-preview-content .fix-overflow {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .glass-card {
+		max-width: 460px;
+		margin: 0 auto 40px auto;
+	}
+	
+	#content-preview-developer .glass-card-center,
+	#content-preview-developer .glass-cards .glass-card-container:nth-child(2) .glass-card {
+		transform: translate(0, 0);
+	}
+	
+	#content-preview-developer .glass-cards .glass-card-container .glass-card {
+		transform: translate(0, 40px);
+		opacity: 0;
+		transition: all 300ms ease-in-out 300ms;
+		padding: 25px 25px 35px;
+	}
+	#content-preview-developer .glass-cards .glass-card-container .glass-card[data-scroll="in"] {
+		opacity: 1;
+		transform: translate(0, 0px);
+		transition: all 300ms ease-in-out 0ms;
+	}
+	
+	#content-preview-developer #developer .custom-col,
+	#content-preview-developer #developer .custom-col:nth-child(2) {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	#content-preview-developer #developer .custom-col:nth-child(2) {
+		margin-top: 20px;
+	}
+	
+	#content-preview-developer #developer {
+		margin-bottom: 120px;
+	}
+	
+	#content-preview-developer #download {
+		margin-top: 140px;
+		margin-bottom: 120px;
+	}
+	
+	#content-preview-developer .moving-planet, 
+	#content-preview-developer .moving-planet-gradient-glow {
+		transform: translate(0, calc(-450px - (-30% * var(--visible-y)))) scale(calc(2 - ( 0.4 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer .fullwidth-banner:after {
+		width: 98%;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col,
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 80%;
+		margin-left: 10%;
+	}	
+	
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes .notes-box .release-note {
+		padding: 25px 25px;
+	}
+	
+	#release-notes .release-note-holder {
+		padding-left: calc(var(--bs-gutter-x)/ 2);
+		padding-right: calc(var(--bs-gutter-x)/ 2);
+	}
+	
+	#release-notes .download-section {
+		margin: 100px auto 120px auto;
+	}
+
+	#release-notes .gradient-glow {
+		transform: translateY(calc(20% - (-200px * var(--viewport-y)))) !important;
+	}
+		
+	#release-notes .gradient-space {
+		transform: translateY(calc(20% - (-160px * var(--viewport-y)))) !important;
+	}
+	
+	/*######################### FANCYBOX STYLES #########################*/
+	.fancybox-container .custom-nav-button:nth-child(1) {
+		left: 10px;
+	}
+	
+	.fancybox-container .custom-nav-button:nth-child(2) {
+		right: 10px;
+	}
+}
+	
+@media only screen and (max-width:600px) {
+	:root {
+		--content-preview-developer-section-developer-margin:60px;
+	}
+
+	.college-logo {
+		position: relative;
+	  }
+	  
+	  .college-logo img {
+		position: absolute;
+		width: 50px;
+		left: 10px;
+		top: 10px;
+	  }
+	  
+	  .mct-logo {
+		position: relative;
+	  }
+	  
+	  .mct-logo img {
+		position: absolute;
+		width: 50px;
+		left: 75px;
+		top: 5px;
+	  }
+	
+	#header .btn-box {
+		margin-top: 35px;
+	}
+	
+	#header .section-wrapper.center-items {
+		padding-top: 220px;
+	}
+	
+	#to-top-btn {
+		width: 40px;
+		height: 40px;
+	}
+	#footer .container .row .columns-holder .content-column {
+		width: 48%;
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 150px;
+	}
+	
+	/*######################### OVERVIEW STYLES #########################*/	
+	.info-box {
+		margin-bottom: 40px;
+		align-items: flex-start;
+	}
+	
+	#app-preview .info-box {
+		margin-bottom: 60px;
+	}
+	
+	#app-preview .info-box:last-child {
+		margin-bottom: 20px;
+	}
+	
+	#app-preview .info-col:nth-child(3) .info-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	#overview .bullet-infos .overview-col {
+		padding: 0;
+	}
+	
+	#overview .two-col-text-banner .flow-text {
+		column-gap: 0px;
+		column-count: 1;
+	}
+	
+	.info-box .upper-headline {
+		font-size: 16px;
+		hyphens: auto;
+	}
+	
+	.info-box .headline {
+		font-size: 20px;
+		word-break: break-word;
+	}
+	
+	#app-preview .info-box .headline {
+		font-size: 22px;
+	}
+	
+	.info-box .info-icon,
+	#app-preview #app-preview-content .info-box .info-icon {
+		width: 55px;
+		margin-right: 12px;
+		min-width: 55px;
+	}
+	
+	#app-preview #app-preview-content .info-col.invert-col .info-box:nth-child(2n+1) .info-icon {
+		margin-right: 0;
+	}
+	
+	#app-preview #app-preview-content .info-box .info-icon {
+		margin-right: 17px;
+	}
+	
+	#app-preview #app-preview-content .info-col:not(.invert-col) .info-box:nth-child(2n) .info-icon {
+		margin-right: 0;
+		margin-left: 17px;
+	}
+	
+	#overview .bullet-infos .overview-col {
+		width: 100%;
+	}
+	
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore .quote-block .quote {
+		font-size: 21px;
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview .section-wrapper.fullwidth-banner[data-scroll="out"]:after {
+		width: 100%;
+	}
+	
+	.fullwidth-banner:after {
+		width: 100%;
+		border-radius: 0 35px 80px 0;
+	}
+	
+	#content-preview-developer .fullwidth-banner:after {
+		width: 100%;
+		border-radius: 35px 0 0 80px;
+	}
+
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	#content-preview-developer .quote-box-col {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	#content-preview-developer .quote-block .quoter {
+		text-align: center;
+	}
+	
+	#content-preview-developer .quote-block .quote {
+		font-size: 21px;
+	}
+	
+	#content-preview-developer .quote-block .quoter-block .content-divider.horizontal {
+		width: 160px;	
+	}
+	
+	#content-preview-developer .gravity-ring {
+		transform: translate(50%, calc(-25% + var(--content-preview-quote-margin))) scale(calc(1.9 - (0.4 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer #developer .custom-col {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	#content-preview-developer .asj-img-mask {
+		transform: translate(0, 40px) !important;
+		opacity: 0;
+		margin-bottom: 60px;
+		transition: all 300ms ease-in-out 300ms;	
+	}
+	
+	#content-preview-developer .asj-img-mask[data-scroll="in"]{
+		opacity: 1;
+		transform: translate(0, 0px) !important;
+		transition: all 300ms ease-in-out 0ms;
+	}
+	
+	#content-preview-developer #developer .custom-col:nth-child(2) {
+		margin-left:0%; 
+	}
+	
+	#content-preview-developer #developer {
+		margin-bottom: 80px;
+	}
+	
+	#content-preview-developer #download .custom-col {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	#content-preview-developer .moving-planet, 
+	#content-preview-developer .moving-planet-gradient-glow {
+		transform: translate(0, calc(-650px - (-30% * var(--visible-y)))) scale(calc(2 - ( 0.4 * var(--viewport-y))));
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col,
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 90%;
+		margin-left: 5%;
+	}	
+	
+	#content-preview-developer .info-box .upper-headline {
+		font-size: 16px;
+	}
+	
+	#content-preview-developer .info-box .headline {
+		font-size: 20px;
+	}
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes {
+		margin-top: 100px;
+	}
+	
+	#release-notes .download-section {
+		margin: 100px auto 100px auto;
+	}
+	
+	/*######################### FANCYBOX STYLES #########################*/
+	.fancybox-container .custom-nav-button {
+		top: 90%;
+	}
+	
+	.fancybox-container .fancybox-slide {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	/*######################### GENERAL STYLES #########################*/
+	:root {
+		--content-preview-developer-section-developer-margin:30px;
+	}
+	
+	h1,
+	#content-preview-developer #download .header-content-block h2.asj-headline {
+		font-size: 32px;
+		max-width: 300px;
+	}
+	
+	h2 {
+		font-size: 22px;
+	}
+	
+	.content-divider {
+		height: 30px;
+	}
+	
+	.section-wrapper,
+	.info-subsite .section-wrapper {
+		max-width: 95%;
+	}
+	
+	#header .asj-square {
+		position: relative;
+	}
+	
+	#header .section-wrapper.center-items {
+		padding-top: 40px;
+	}
+	
+	#header .asj-square, 
+	#download .asj-square {
+		width: 130px;
+	}
+	
+	#header .asj-square {
+		transform: translate(calc(11% - 60px), 46%) rotateY(90deg);
+	}
+	
+	#header.animIn .header-content-block .asj-square {
+		transform: translate(11%, 46%) rotateY(0deg);
+	}
+	
+	#content-preview-developer #download .header-content-block .asj-square {
+		transform: translate(8%, -52%) rotateY(0deg);
+	}
+
+	.cs-button {
+		margin-right: 12px;
+	}
+	
+	#app-preview .app-slider .app-slider-indicators .indicator {
+		width: 14px;
+		height: 14px;
+		margin: 0px 10px;
+	}
+	
+	.asj-nav-bar-backlayer {
+		display:block;
+		visibility: visible;
+	}
+	
+	.asj-nav-bar-backlayer.menu-is-open {
+		opacity: 0.8;
+		pointer-events: all;
+	}
+		
+	/*######################### HEADER STYLES #########################*/
+	
+	#header .header-content-block {
+		will-change: auto;
+		transform: translateY(0);
+	}
+	
+	#header .overflow-box.planet-overflow {
+		height: 2000px;
+	}
+	
+	/*######################### MESSAGES STYLES #########################*/	
+	#messages .message-col {
+		padding-top: 450px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+		
+	/*######################### EXPLORE STYLES #########################*/	
+	#explore .quote-box .gravity-ring {
+		display:block;
+		top: 20%;
+		height: 700px;
+	}
+	
+	#explore .sticky-container {
+		padding-top: 40px;
+	}
+	
+	#explore .section-wrapper.top-margin {
+		margin-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	#explore .gallery-grid .gallery-item img {
+		border-radius: 15px;
+	}
+	
+	/*######################### APP PREVIEW STYLES #########################*/	
+	#app-preview #app-preview-content {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	/*######################### CONTENT PREVIEW STYLES #########################*/	
+	
+	#content-preview-developer #developer {
+		margin-bottom: 80px;
+	}
+	
+	#content-preview-developer .fullwidth-banner .custom-col,
+	#content-preview-developer .fullwidth-banner .custom-col:nth-child(2) {
+		width: 100%;
+		margin-left: 0%;
+	}	
+	
+	/*######################### RELEASE NOTES STYLES #########################*/	
+	#release-notes .release-note-holder {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	#release-notes .btn-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#release-notes .btn-box .cs-btn-holder:nth-child(1) .cs-button {
+		margin-right: 0;
+	}
+	
+	#release-notes .planet {
+		height: 23%;
+	}
+	
+	/*######################### FOOTER STYLES #########################*/	
+	#release-notes #footer,
+	#footer {
+		width: 100%;
+		left: auto;
+		padding: 40px 15px 20px 15px;
+	}
+	
+	#footer .container .row .columns-holder .content-column {
+		width: 90%;
+	}
+	
+	#footer .container .row .columns-holder .content-column:nth-child(3),
+	#footer .container .row .columns-holder .content-column:nth-child(4) {
+		margin-bottom: 40px;
+	}
+	
+	#footer .copyright-bar {
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width:360px) {
+/*######################### NAV STYLES #########################*/	
+	nav.asj-nav-bar {
+		width: 100%; 
+	}
+	
+	nav.asj-nav-bar.open {
+		transform: translate(15%, -50%);
+	}
+	
+	#messages .stranger-message-holder .message {
+		padding-right: 25px;
+	}
+
+}
+
+@media only screen and (max-width:348px) {
+	/*######################### NAV STYLES #########################*/	
+	nav.asj-nav-bar .nav-shadow,
+	nav.asj-nav-bar .nav-background,
+	nav.asj-nav-bar {
+		border-radius: 40px 0 0 40px;
+	}
+	
+	nav.asj-nav-bar {
+		top: 50vh;
+	}
+	
+	nav.asj-nav-bar.open {
+		transform: translate(7px, -50%);
+	}
+	
+	nav.asj-nav-bar.open .nav-btn {
+		transform: translate(-50%,-60%);
+		top: 0;
+		left: 50%;
+	}
+	
+	nav.asj-nav-bar.open .nav-btn:hover {
+		transform: translate(-50%,calc(-60% - 3px));
+	}
+	
+	nav.asj-nav-bar.open .nav-btn .btn-bars {
+		transform: translate(-2%, -40%);
+	}
+	
+	h1,
+	#content-preview-developer #download .header-content-block h2.asj-headline {
+		font-size: 26px;
+	}
+	
+	#header .asj-square, 
+	#download .asj-square {
+		width: 120px;
+	}
+	
+	#header .asj-square {
+		transform: translate(calc(8% - 60px), 45%) rotateY(90deg);
+	}
+	
+	#header.animIn .header-content-block .asj-square {
+		transform: translate(8%, 45%) rotateY(0deg);
+	}
+	
+	#content-preview-developer #download .header-content-block .asj-square {
+		transform: translate(9%, -55%) rotateY(0deg);
+	}
+	
+	
+	#messages .stranger-message-holder .message {
+		padding-top: 22px;
+		padding-bottom: 22px;
+		min-height: 97px;
+		display: flex;
+		align-items: center;
+	}
+	
+	#messages .messages-box.user-message-income .message.from-user {
+		padding-left: 35px;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (max-width:310px) {
+	h1,
+	#content-preview-developer #download .header-content-block h2.asj-headline {
+		font-size: 24px;
+	}		
+	
+	#header .asj-square, 
+	#download .asj-square {
+		width: 110px;
+	}
+	
+	#header .asj-square {
+		transform: translate(calc(11% - 60px), 46%) rotateY(90deg);
+	}
+	
+	#header.animIn .header-content-block .asj-square {
+		transform: translate(11%, 46%) rotateY(0deg);
+	}
+	
+	#content-preview-developer #download .header-content-block .asj-square {
+		transform: translate(10%, -53%) rotateY(0deg);
+	}
+}

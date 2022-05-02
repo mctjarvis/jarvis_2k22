@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_89" data-name="Rechteck 89" width="120" height="120" transform="translate(1973 758)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_maskieren_20" data-name="Gruppe maskieren 20" transform="translate(-1973 -758)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-envelope" data-name="Icon awesome-envelope" d="M114.825,33.486a1.376,1.376,0,0,1,2.217,1.074V81.309A10.976,10.976,0,0,1,106.07,92.282h-95.1A10.976,10.976,0,0,1,0,81.309V34.584a1.367,1.367,0,0,1,2.217-1.074c5.121,3.978,11.91,9.03,35.227,25.969C42.268,63,50.406,70.4,58.521,70.359c8.161.069,16.459-7.5,21.1-10.881C102.938,42.539,109.7,37.464,114.825,33.486Zm-56.3,29.535c5.3.091,12.939-6.675,16.779-9.464,30.335-22.014,32.644-23.934,39.639-29.421a5.47,5.47,0,0,0,2.1-4.321V15.473A10.976,10.976,0,0,0,106.07,4.5h-95.1A10.976,10.976,0,0,0,0,15.473v4.343a5.5,5.5,0,0,0,2.1,4.321c7,5.464,9.3,7.407,39.639,29.421C45.583,56.346,53.218,63.113,58.521,63.021Z" transform="translate(1974.479 770.109)" fill="#fff"/>
+  </g>
+</svg>

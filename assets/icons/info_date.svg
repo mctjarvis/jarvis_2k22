@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_85" data-name="Rechteck 85" width="180" height="180" transform="translate(733 6634)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="1.105" x2="0.142" y2="0.238" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5836ac"/>
+      <stop offset="1" stop-color="#b21cc4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="13.173" y1="12.859" x2="1" y2="2.08" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="10.355" y1="12.878" x2="-2.153" y2="2.65" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Gruppe_maskieren_16" data-name="Gruppe maskieren 16" transform="translate(-733 -6634)" clip-path="url(#clip-path)">
+    <g id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar" transform="translate(748 6655)">
+      <path id="Pfad_1368" data-name="Pfad 1368" d="M138.653,6.75H124.262v8.635a2.887,2.887,0,0,1-2.878,2.878h-5.757a2.887,2.887,0,0,1-2.878-2.878V6.75H43.671v8.635a2.887,2.887,0,0,1-2.878,2.878H35.036a2.887,2.887,0,0,1-2.878-2.878V6.75H17.766A14.434,14.434,0,0,0,3.375,21.141V119a14.434,14.434,0,0,0,14.391,14.391H138.653A14.434,14.434,0,0,0,153.045,119V21.141A14.434,14.434,0,0,0,138.653,6.75Zm2.878,107.935a7.217,7.217,0,0,1-7.2,7.2H22.084a7.217,7.217,0,0,1-7.2-7.2V49.924a2.887,2.887,0,0,1,2.878-2.878H138.653a2.887,2.887,0,0,1,2.878,2.878Z" transform="translate(-3.375 4.763)" fill="url(#linear-gradient)"/>
+      <path id="Pfad_1369" data-name="Pfad 1369" d="M20.513,7.378A2.887,2.887,0,0,0,17.635,4.5H11.878A2.887,2.887,0,0,0,9,7.378v8.635H20.513Z" transform="translate(19.783 -4.5)" fill="url(#linear-gradient-2)"/>
+      <path id="Pfad_1370" data-name="Pfad 1370" d="M36.263,7.378A2.887,2.887,0,0,0,33.385,4.5H27.628A2.887,2.887,0,0,0,24.75,7.378v8.635H36.263Z" transform="translate(84.624 -4.5)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_86" data-name="Rechteck 86" width="180" height="180" transform="translate(610 6941)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="9.454" y1="5.593" x2="-1.503" y2="-1.969" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5836ac"/>
+      <stop offset="1" stop-color="#b21cc4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.973" y1="0.957" x2="0.111" y2="0.105" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Gruppe_maskieren_19" data-name="Gruppe maskieren 19" transform="translate(-610 -6941)" clip-path="url(#clip-path)">
+    <g id="Icon_ionic-logo-game-controller-b" data-name="Icon ionic-logo-game-controller-b" transform="translate(622 6976)">
+      <path id="Pfad_1372" data-name="Pfad 1372" d="M14.831,14.386A6.724,6.724,0,1,0,21.52,21.11,6.7,6.7,0,0,0,14.831,14.386Z" transform="translate(20.918 23.219)" fill="url(#linear-gradient)"/>
+      <path id="Pfad_1373" data-name="Pfad 1373" d="M152.785,59.715c-7.348-30.673-15.111-46.962-30.673-51.572a30.915,30.915,0,0,0-8.907-1.386c-9.566,0-16.255,5.095-33.307,5.095S56.157,6.757,46.591,6.757a30.573,30.573,0,0,0-8.907,1.386C22.122,12.753,14.359,29.077,7.011,59.715c-7.348,30.673-6,52.82,2.669,56.944a10.111,10.111,0,0,0,4.332.97c7.521,0,15.631-8.249,23.464-18.022C46.383,88.482,48.6,88.17,75.7,88.17h8.422c27.068,0,29.321.277,38.228,11.437,7.8,9.774,15.943,18.022,23.464,18.022a10.224,10.224,0,0,0,4.332-.97C158.781,112.5,160.1,90.354,152.785,59.715ZM38.031,64.81A13.726,13.726,0,1,1,51.617,51.085,13.683,13.683,0,0,1,38.031,64.81Zm59.925-6.758a6.966,6.966,0,1,1,6.966-6.966A6.967,6.967,0,0,1,97.955,58.052Zm15.215,15.215a6.949,6.949,0,1,1,6.966-6.932A6.96,6.96,0,0,1,113.171,73.267Zm0-30.43a6.966,6.966,0,1,1,6.966-6.966A6.967,6.967,0,0,1,113.171,42.837Zm15.215,15.215a6.966,6.966,0,1,1,6.966-6.966A6.967,6.967,0,0,1,128.386,58.052Z" transform="translate(-2.247 -6.757)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

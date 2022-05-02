@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_88" data-name="Rechteck 88" width="180" height="180" transform="translate(1126 6634)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.946" y1="1" x2="0.031" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5836ac"/>
+      <stop offset="1" stop-color="#b21cc4"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_maskieren_18" data-name="Gruppe maskieren 18" transform="translate(-1126 -6634)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-hourglass-half" data-name="Icon awesome-hourglass-half" d="M98.474,0H6.565A6.565,6.565,0,0,0,0,6.565v4.377a6.565,6.565,0,0,0,6.565,6.565c0,24.882,13.955,45.882,33.055,52.519C20.52,76.663,6.565,97.663,6.565,122.545A6.565,6.565,0,0,0,0,129.11v4.377a6.565,6.565,0,0,0,6.565,6.565H98.474a6.565,6.565,0,0,0,6.565-6.565V129.11a6.565,6.565,0,0,0-6.565-6.565c0-24.882-13.955-45.882-33.055-52.519,19.1-6.638,33.055-27.637,33.055-52.519a6.565,6.565,0,0,0,6.565-6.565V6.565A6.565,6.565,0,0,0,98.474,0ZM77.937,105.039H27.1c4.666-12.8,14.25-21.883,25.417-21.883S73.27,92.236,77.937,105.039Zm.005-70.026H27.1a51.319,51.319,0,0,1-3.03-17.506h56.9A51.325,51.325,0,0,1,77.942,35.013Z" transform="translate(1164 6654)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

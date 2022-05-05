@@ -28,14 +28,33 @@
     <title>JARVIS' 22 Registration</title>
 </head>
 <body>
-	<h1 style="color: green;">
-		Jarvis 2k22
-	</h1>
+
 	<!-- Specify the <iframe> given by the
 		the Google Forms embed page -->
-	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAk6yJitEoQ4ZkfK7RnFRzdf_OsSKl6YpS0WLYNauKAxtrmw/viewform?embedded=true" height="315" width="560" allowfullscreen="" frameborder="0">Loading…</iframe>
+	<iframe src="https://forms.gle/uEVotgUmgZH8A2dr9" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<style>
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
+	</style>
 	
+<script>	
+var iframe = document.getElementById('frame');
+
+iframe.addEventListener('load', function() {
+  console.log(iframe.contentDocument.querySelector('form + div'))
+})
+	</script>
 	</body>
 
 </html>

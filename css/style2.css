@@ -112,7 +112,7 @@ div.rules{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    background-color: black;
+    background-color: none;
     color: white;
     border: 2px solid #b40755;
     border-radius: 50px;

@@ -112,10 +112,10 @@ div.rules{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    background-color: none;
+    background-color: white;
     color: none;
     border: 2px solid #b40755;
-    border-radius: 50px;
+    border-radius: 20px;
   }
   
   .register:hover {background-color: #c3119f}

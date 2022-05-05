@@ -113,16 +113,16 @@ div.rules{
     text-align: center;
     text-decoration: none;
     background-color: white;
-    color: none;
+    color: black;
     border: 2px solid #b40755;
-    border-radius: 20px;
+    border-radius: 50px;
   }
   
   .register:hover {background-color: #c3119f}
   
   .register:active {
     background-color: #c717c1;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 5px #000;
     transform: translateY(4px);
   }
   .wrapper .icon{

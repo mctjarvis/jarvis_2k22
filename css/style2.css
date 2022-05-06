@@ -9,7 +9,7 @@
         url('fonts/Equinox_Regular.otf') format('opentype');
 }
 body{
-  background-image: url('https://www.youtube.com/watch?v=vsiMkM2UG3k');
+  background-image: url('assets/images/bg.jpg');
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
     background-size: cover;
@@ -194,11 +194,6 @@ h2 { font-size: 3rem; }
 
 
   @media only screen and (max-device-width:700px){ 
-    #background-video { display: none; }
-    body {
-      background: url("") no-repeat;
-      background-size: cover;
-    }
      div.poster{
        width:fit-content;
        object-fit: contain;

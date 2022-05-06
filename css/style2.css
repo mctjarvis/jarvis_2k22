@@ -29,7 +29,7 @@ h1 {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
     font-family: 'Equinox Bold';
     align-content: center;
@@ -92,7 +92,7 @@ div.RT{
     margin-right: auto;
     text-align: center;
     font-family:'Equinox Bold';
-    font-weight: 900;
+    font-weight: bolder;
     padding: 10px;
 }
 div.rules{

@@ -196,7 +196,7 @@ h2 { font-size: 3rem; }
   @media only screen and (max-device-width:700px){ 
     #background-video { display: none; }
     body {
-      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background: url("") no-repeat;
       background-size: cover;
     }
      div.poster{

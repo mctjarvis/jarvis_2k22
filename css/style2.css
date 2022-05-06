@@ -94,8 +94,7 @@ div.RT{
     padding: 10px;
 }
 div.rules{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     font-weight: 700;
     width: 30em;
     color: aliceblue;

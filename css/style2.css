@@ -29,7 +29,7 @@ h1 {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bolder;
     font-family: 'Equinox Bold';
     align-content: center;
@@ -70,7 +70,7 @@ background-size: cover;
 }
 .a{
   margin-left: -10px;
-  list-style-type: circle;
+  list-style-type: lower-latin;
 }
 .poster{
     
@@ -99,7 +99,7 @@ div.rules{
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
-    font-family: 'Equinox Bold';
+    font-family: 'Equinox Regular';
     width: 30em;
     color: aliceblue;
 }
@@ -163,24 +163,7 @@ div.rules{
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-
-
-/* page content */
-h1, h2 {
-  color: white;
-  font-family: Trebuchet MS;
-  font-weight: bold;
-  text-align: center;
-}
-
-h1 {
-  font-size: 6rem;
-  margin-top: 30vh; 
-}
-
-h2 { font-size: 3rem; }
-
-
+  
   @media only screen and (max-device-width:700px){ 
      div.poster{
        width:fit-content;
